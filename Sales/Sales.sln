@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.AppServices", "Sales.AppServices\Sales.AppServices.csproj", "{2C18DD2E-F2FE-4B89-BBC6-E9071025E934}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.AppServices", "Sales.AppServices\Sales.AppServices.csproj", "{2C18DD2E-F2FE-4B89-BBC6-E9071025E934}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Domain", "..\Sales.Domain\Sales.Domain.csproj", "{D608F3E4-6217-4C75-80ED-D396B378EDF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Domain", "..\Sales.Domain\Sales.Domain.csproj", "{D608F3E4-6217-4C75-80ED-D396B378EDF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Infraestructure", "Sales.Infraestructure\Sales.Infraestructure.csproj", "{2683F977-15A6-48C8-93BF-3B31428E9C85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Infraestructure", "Sales.Infraestructure\Sales.Infraestructure.csproj", "{2683F977-15A6-48C8-93BF-3B31428E9C85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppServices", "AppServices", "{52CD4309-1824-4625-8D66-4E4C952EEB5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5E69FCAC-0BA1-4343-AE0B-76426189AD16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{CFA55814-82AC-4DD4-A178-1C626058F37B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +36,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C18DD2E-F2FE-4B89-BBC6-E9071025E934} = {52CD4309-1824-4625-8D66-4E4C952EEB5B}
+		{D608F3E4-6217-4C75-80ED-D396B378EDF6} = {5E69FCAC-0BA1-4343-AE0B-76426189AD16}
+		{2683F977-15A6-48C8-93BF-3B31428E9C85} = {CFA55814-82AC-4DD4-A178-1C626058F37B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3527DED-1D4B-4DD8-AD8F-887482E04251}

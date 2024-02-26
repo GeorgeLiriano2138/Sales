@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sales.Domain.Entities
 {
-    internal class CDetalleVenta
+    internal class Class5
     {
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sales.Domain.Entities
+namespace Sales.Infraestructure.Context
 {
-    internal class CRolMenu
+    internal class SalesContext
     {
     }
 }
