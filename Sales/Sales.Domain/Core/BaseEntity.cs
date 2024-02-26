@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sales.Domain.Core
 {
-    internal class Class1
+    internal class BaseEntity
     {
     }
 }
